@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #3f87f5;
+  --text-color-main: #0b0d17;
+  --text-color-secondary: #6c6c6c;
+}
+
+header .navbar-nav .nav-item a {
+  color: var(--text-color-main);
+}
