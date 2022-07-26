@@ -7,3 +7,30 @@
 header .navbar-nav .nav-item a {
   color: var(--text-color-main);
 }
+#feature-section .feature-title {
+  font-size: 40px;
+}
+#feature-section .feature-item .list li,
+#feature-section .feature-item p {
+  color: #848199;
+}
+#feature-section .feature-item .list i.fa {
+  width: 25px;
+  height: 25px;
+  font-size: 0.75rem;
+  color: var(--primary-color);
+  background-color: rgba(61, 135, 245, 0.1);
+}
+#feature-section .feature-item.feature-item-active {
+  background-color: var(--primary-color);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #fff;
+}
+#feature-section .feature-item.feature-item-active p {
+  color: #fff;
+}
+#feature-section .feature-item.feature-item-active .list i.fa {
+  color: #fff;
+  background-color: rgba(61, 135, 245, 0.1);
+}
